@@ -10,9 +10,11 @@ VSCode extension to generate spans simulating the Git merge message
 
   ```
     mkdir -p ~/.vscode/extensions/troll-gitmerge
-    cp -r . ~/.vscode/extensions/troll-gitmerge
+    cp -r . ~/.vscode/extensions/troll-gitmerge 
   ```
-- cntrl + shift + p -> Reload window + enter
+  - (On Windows): Paste de project in C:\Program Files\Microsoft VS Code\resources\app\extensions;
+
+  - cntrl + shift + p -> Reload window + enter
 
 ## Stopping Extension
   ```
