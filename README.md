@@ -6,15 +6,17 @@ VSCode extension to generate spans simulating the Git merge message
   - You must have the Vscode and the git extension on your pc
 
 ## Running Extension 🔧
- - Open the project folder and runt the follow code 
+ - Clone the code and move on to vscode extensions dir
 
   ```
-    mkdir -p ~/.vscode/extensions/troll-gitmerge
-    cp -r . ~/.vscode/extensions/troll-gitmerge 
+   cd ~/.vscode/extensions/
+   git clone https://github.com/robertokbr/VSCode-MergeVirus.git troll-gitmerge
+   cd troll-gitmerge
+   yarn 
   ```
-  - (On Windows): Paste de project in C:\Program Files\Microsoft VS Code\resources\app\extensions;
+  - OBS: On Windows C:\Program Files\Microsoft VS Code\resources\app\extensions;
 
-  - cntrl + shift + p -> Reload window + enter
+  - Reload your vscode window: cntrl + shift + p
 
 ## Stopping Extension
   ```
